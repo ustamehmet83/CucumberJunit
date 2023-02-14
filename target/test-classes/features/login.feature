@@ -1,4 +1,4 @@
-@Regression
+@Regression @Smoke
   # this is how we can add comments in feature files
 Feature: Library app login feature
   User Story:
