@@ -41,5 +41,12 @@ public class WikiSearch_StepDefinitions {
         Assert.assertEquals("Title is not as expected",expectedHeader,actualFirstHeader);
     }
 
+    @Then("User sees {string} is in the image header")
+    public void user_sees_is_in_the_image_header(String string) {
+        String expectedImageHeader = string;
+        String actualImageHeader = wikiSearchPage.imageHeader.getText();
+        Assert.assertEquals("Title is not as expected",expectedImageHeader,actualImageHeader);
+    }
+
 
 }

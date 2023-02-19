@@ -19,4 +19,6 @@ public class WikiSearchPage {
 
     @FindBy (id="firstHeading")
     public WebElement firstHeader;
+    @FindBy(xpath = "//div[.='Steven Paul Jobs']")
+    public WebElement imageHeader;
 }
