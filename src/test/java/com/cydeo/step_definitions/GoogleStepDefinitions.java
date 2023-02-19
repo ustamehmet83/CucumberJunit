@@ -39,4 +39,14 @@ public class GoogleStepDefinitions {
 //Junit assertion accepts first arg as expected, second arg as expected
         Assert.assertEquals("Title is not as expected",expectedTitle,actualTitle);
     }
+
+    @When("user types {string} and clicks enter")
+    public void user_types_and_clicks_enter(String string) {
+
+    }
+    @Then("user sees {string} in the google title")
+    public void user_sees_in_the_google_title(String string) {
+
+    }
+
 }

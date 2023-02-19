@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c7d29b8-ef67-419a-9e7b-da387b0452ae" name="Changes" comment="day15 login. Features">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/pages/GoogleSearchPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/runners/CukesRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/step_definitions/GoogleStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/step_definitions/GoogleStepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/step_definitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/step_definitions/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/googleSearch.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/googleSearch.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +158,7 @@
       <workItem from="1676203939624" duration="17445000" />
       <workItem from="1676315988900" duration="15231000" />
       <workItem from="1676663223724" duration="2792000" />
-      <workItem from="1676812639021" duration="3901000" />
+      <workItem from="1676812639021" duration="5809000" />
     </task>
     <task id="LOCAL-00001" summary="Cucumber project">
       <created>1676202207468</created>
@@ -221,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676814903960</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="day15 login. Features">
+      <created>1676816951610</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1676816951610</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
