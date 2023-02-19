@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c7d29b8-ef67-419a-9e7b-da387b0452ae" name="Changes" comment="day16 GoogleStepDefinitions" />
+    <list default="true" id="6c7d29b8-ef67-419a-9e7b-da387b0452ae" name="Changes" comment="day16 GoogleStepDefinitions">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/step_definitions/Datatable_StepDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/dataTables.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/wikiSearch.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/wikiSearch.feature" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,7 +60,7 @@
       <recent name="C:\Users\mehme\IdeaProjects\cydeo-cucumber-junit\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Wikipedia Search Functionality Image Header Verification">
+  <component name="RunManager" selected="JUnit.CukesRunner">
     <configuration name="Scenario: Search page title verification" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/googleSearch.feature" />
@@ -153,8 +158,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: Wikipedia Search Functionality Image Header Verification" />
         <item itemvalue="JUnit.CukesRunner" />
+        <item itemvalue="Cucumber Java.Scenario: Wikipedia Search Functionality Image Header Verification" />
         <item itemvalue="Cucumber Java.Scenario: Wikipedia Search Functionality Header Verification" />
         <item itemvalue="Cucumber Java.Scenario: Wikipedia Search Functionality Title Verification" />
         <item itemvalue="Cucumber Java.Scenario: Search page title verification" />
@@ -178,7 +183,7 @@
       <workItem from="1676203939624" duration="17445000" />
       <workItem from="1676315988900" duration="15231000" />
       <workItem from="1676663223724" duration="2792000" />
-      <workItem from="1676812639021" duration="14842000" />
+      <workItem from="1676812639021" duration="17415000" />
     </task>
     <task id="LOCAL-00001" summary="Cucumber project">
       <created>1676202207468</created>
@@ -278,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676831246451</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="day16 GoogleStepDefinitions">
+      <created>1676832082620</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1676832082620</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
