@@ -9,6 +9,9 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
+import org.openqa.selenium.WebElement;
+
+import java.util.Map;
 
 public class WebTable_StepDefinitions {
 
@@ -45,4 +48,15 @@ public class WebTable_StepDefinitions {
     public void userEntersUsernamePasswordAndLogins(String username, String password) {
         webTableLoginPage.login(username,password);
     }
+
+    @When("User enters below credentials")
+    public void userEntersBelowCredentials(Map<String,String> credentials) {
+//       webTableLoginPage.inputUsername.sendKeys(credentials.get("username"));
+//       webTableLoginPage.inputPassword.sendKeys(credentials.get("password"));
+//       webTableLoginPage.loginBtn.click();
+        webTableLoginPage.login(credentials.get("username"),credentials.get("password"));
+    }
+
+
+
 }
