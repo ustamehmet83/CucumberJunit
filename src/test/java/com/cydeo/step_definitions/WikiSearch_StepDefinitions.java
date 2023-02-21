@@ -29,7 +29,7 @@ public class WikiSearch_StepDefinitions {
 
     @Then("User sees {string} is in the wiki title")
     public void user_sees_is_in_the_wiki_title(String string) {
-        String expectedTitle = string+" - Vikipedi";
+        String expectedTitle = string + " - Vikipedi";
         String actualTitle = Driver.getDriver().getTitle();
         Assert.assertEquals("Title is not as expected", actualTitle, expectedTitle);
     }
@@ -38,14 +38,14 @@ public class WikiSearch_StepDefinitions {
     public void user_sees_steve_jobs_is_in_the_main_header(String string) {
         String expectedHeader = string;
         String actualFirstHeader = wikiSearchPage.firstHeader.getText();
-        Assert.assertEquals("Title is not as expected",expectedHeader,actualFirstHeader);
+        Assert.assertEquals("Title is not as expected", expectedHeader, actualFirstHeader);
     }
 
     @Then("User sees {string} is in the image header")
     public void user_sees_is_in_the_image_header(String string) {
         String expectedImageHeader = string;
         String actualImageHeader = wikiSearchPage.imageHeader.getText();
-        Assert.assertEquals("Title is not as expected",expectedImageHeader,actualImageHeader);
+        Assert.assertEquals("Title is not as expected", expectedImageHeader, actualImageHeader);
     }
 
 
