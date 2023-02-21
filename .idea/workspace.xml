@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c7d29b8-ef67-419a-9e7b-da387b0452ae" name="Changes" comment="day16 webTableLogin.feature">
+    <list default="true" id="6c7d29b8-ef67-419a-9e7b-da387b0452ae" name="Changes" comment="day17 Dropdown Table">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/pages/WebTableLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/pages/WebTableLoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/step_definitions/WebTable_StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/step_definitions/WebTable_StepDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/utilities/BrowserUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/utilities/BrowserUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/webTableLogin.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/webTableLogin.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cydeo/utilities/BrowserUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cydeo/utilities/BrowserUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/pages/DropdownsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/pages/DropdownsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/step_definitions/Datatable_StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/step_definitions/Datatable_StepDefinitions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,15 +80,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Wikipedia Search Functionality Image Header Verification" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: User should be able to see all 12 months in months dropdown" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/wikiSearch.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/dataTables.feature" />
       <option name="GLUE" value="com.cydeo.step_definitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="cydeo-cucumber-junit" />
-      <option name="NAME_FILTER" value="^Wikipedia Search Functionality Image Header Verification$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Wikipedia Search Functionality Image Header Verification$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Wikipedia Search Functionality Image Header Verification" />
+      <option name="NAME_FILTER" value="^User should be able to see all 12 months in months dropdown$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User should be able to see all 12 months in months dropdown$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: User should be able to see all 12 months in months dropdown" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -161,10 +158,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.CukesRunner" />
+        <item itemvalue="Cucumber Java.Scenario: User should be able to see all 12 months in months dropdown" />
         <item itemvalue="Cucumber Java.Scenario: Positive login scenario" />
         <item itemvalue="Cucumber Java.Scenario: Wikipedia Search Functionality Title Verification" />
         <item itemvalue="Cucumber Java.Scenario: Wikipedia Search Functionality Title Verification - search value... - Example n°1" />
-        <item itemvalue="Cucumber Java.Scenario: Wikipedia Search Functionality Image Header Verification" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +182,7 @@
       <workItem from="1676203939624" duration="17445000" />
       <workItem from="1676315988900" duration="15231000" />
       <workItem from="1676663223724" duration="2792000" />
-      <workItem from="1676812639021" duration="30961000" />
+      <workItem from="1676812639021" duration="35458000" />
     </task>
     <task id="LOCAL-00001" summary="Cucumber project">
       <created>1676202207468</created>
@@ -313,7 +310,21 @@
       <option name="project" value="LOCAL" />
       <updated>1676981494361</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="day16 webTableLogin.feature">
+      <created>1676986355862</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1676986355862</updated>
+    </task>
+    <task id="LOCAL-00020" summary="day17 Dropdown Table">
+      <created>1676988560711</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1676988560711</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -338,6 +349,7 @@
     <MESSAGE value="day16 GoogleStepDefinitions" />
     <MESSAGE value="day16 wikiSearch.feature" />
     <MESSAGE value="day16 webTableLogin.feature" />
-    <option name="LAST_COMMIT_MESSAGE" value="day16 webTableLogin.feature" />
+    <MESSAGE value="day17 Dropdown Table" />
+    <option name="LAST_COMMIT_MESSAGE" value="day17 Dropdown Table" />
   </component>
 </project>
