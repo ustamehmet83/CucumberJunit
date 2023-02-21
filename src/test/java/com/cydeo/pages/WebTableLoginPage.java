@@ -20,6 +20,30 @@ public class WebTableLoginPage {
     @FindBy (xpath="//button[.='Login']")
     public WebElement loginBtn;
 
+    /**
+     * No parameters
+     * When we call this method, it will directly login using
+     *
+     * Username: Test
+     * Password: Tester
+     */
+    public void login(){
+        this.inputUsername.sendKeys("Test");
+        this.inputPassword.sendKeys("Tester");
+        this.loginBtn.click();
+    }
+
+    /**
+     * This method will accept two arguments and login.
+     * @param username
+     * @param password
+     */
+    public void login(String username,String password){
+        inputUsername.sendKeys(username);
+        inputPassword.sendKeys(password);
+        loginBtn.click();
+    }
+
 
 
 

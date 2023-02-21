@@ -53,7 +53,6 @@ public class BrowserUtils {
 
     }
 
-
     public static void verifyTitle(String expectedTitle){
         Assert.assertEquals(Driver.getDriver().getTitle(),expectedTitle);
     }
