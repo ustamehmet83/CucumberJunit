@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c7d29b8-ef67-419a-9e7b-da387b0452ae" name="Changes" comment="day16 wikiSearch.feature">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/pages/WebTableLoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/step_definitions/WebTableLogin_StepDefinitions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/webTableLogin.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/step_definitions/WikiSearch_StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/step_definitions/WikiSearch_StepDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/wikiSearch.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/wikiSearch.feature" afterDir="false" />
-    </list>
+    <list default="true" id="6c7d29b8-ef67-419a-9e7b-da387b0452ae" name="Changes" comment="day16 webTableLogin.feature" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -186,7 +178,7 @@
       <workItem from="1676203939624" duration="17445000" />
       <workItem from="1676315988900" duration="15231000" />
       <workItem from="1676663223724" duration="2792000" />
-      <workItem from="1676812639021" duration="27293000" />
+      <workItem from="1676812639021" duration="28474000" />
     </task>
     <task id="LOCAL-00001" summary="Cucumber project">
       <created>1676202207468</created>
@@ -300,7 +292,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676836154070</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="day16 webTableLogin.feature">
+      <created>1676979543913</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1676979543913</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -324,6 +323,7 @@
     <MESSAGE value="day15 login. Features" />
     <MESSAGE value="day16 GoogleStepDefinitions" />
     <MESSAGE value="day16 wikiSearch.feature" />
-    <option name="LAST_COMMIT_MESSAGE" value="day16 wikiSearch.feature" />
+    <MESSAGE value="day16 webTableLogin.feature" />
+    <option name="LAST_COMMIT_MESSAGE" value="day16 webTableLogin.feature" />
   </component>
 </project>
