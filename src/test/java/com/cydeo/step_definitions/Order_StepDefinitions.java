@@ -2,6 +2,7 @@ package com.cydeo.step_definitions;
 
 import com.cydeo.pages.BasePage;
 import com.cydeo.pages.OrderPage;
+import com.cydeo.pages.ViewAllOrdersPage;
 import com.cydeo.pages.WebTableLoginPage;
 import com.cydeo.utilities.BrowserUtils;
 import com.cydeo.utilities.ConfigurationReader;
@@ -14,10 +15,14 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 
+import java.util.List;
+
 public class Order_StepDefinitions {
     WebTableLoginPage webTableLoginPage = new WebTableLoginPage();
     BasePage basePage = new BasePage();
     OrderPage orderPage = new OrderPage();
+
+    ViewAllOrdersPage viewAllOrdersPage= new ViewAllOrdersPage();
 
     @Given("user is already logged in and on order page")
     public void user_is_already_logged_in_and_on_order_page() {
@@ -75,12 +80,10 @@ public class Order_StepDefinitions {
     }
 
     @When("user selects credit card type {string}")
-    public void user_selects_credit_card_type(String string) throws InterruptedException {
-        for (WebElement webElement : orderPage.inputPaymentInfo) {
-            if (webElement.getText().equals(string)) {
-                webElement.click();
-            }
-        }
+    public void user_selects_credit_card_type(String expectedCardType) {
+        //This line will loop through the list and decide which radio button to click
+        List<WebElement> cardTypes = orderPage.cardType;
+        BrowserUtils.clickRadioBtnWithString(cardTypes, expectedCardType);
     }
 
     @When("user enters credit card number {string}")
@@ -99,8 +102,8 @@ public class Order_StepDefinitions {
     }
 
     @Then("user should see {string} in first row of the web table")
-    public void user_should_see_in_first_row_of_the_web_table(String string) {
-        String actualFirstRowOfTable = orderPage.firstRowOfTable.getText();
-        Assert.assertTrue(actualFirstRowOfTable.equals(string));
+    public void user_should_see_in_first_row_of_the_web_table(String expectedName) {
+        String actualNewCustomerCell = viewAllOrdersPage.newCustomerCell.getText();
+        Assert.assertTrue(actualNewCustomerCell.equals(expectedName));
     }
 }

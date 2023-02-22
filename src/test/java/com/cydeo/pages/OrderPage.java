@@ -28,8 +28,8 @@ public class OrderPage extends BasePage{
     public WebElement inputState;
     @FindBy (xpath = "//input[@name='zip']")
     public WebElement inputZipCode;
-    @FindBy (xpath = "//label[@class='radio']")
-    public List<WebElement> inputPaymentInfo;
+    @FindBy (name = "card")
+    public List<WebElement> cardType;
 
     @FindBy (xpath = "//input[@placeholder='The number on the card']")
     public WebElement inputNumberOnCard;
@@ -37,7 +37,43 @@ public class OrderPage extends BasePage{
     public WebElement inputExpiryDate;
     @FindBy (xpath = "//button[.='Process Order']")
     public WebElement inputProcessOrder;
-    @FindBy (xpath = "//tbody//th/following-sibling::td[1]")
-    public WebElement firstRowOfTable;
+
+
+
+
+    @FindBy(xpath = "//input[@name=\"state\"]")
+    public WebElement stateInput;
+
+    @FindBy(name = "product")
+    public WebElement moneyCog;
+
+    @FindBy(name = "quantity")
+    public WebElement quantityInput;
+
+    @FindBy(name = "name")
+    public WebElement nameInput;
+
+    @FindBy(name = "street")
+    public WebElement streetInput;
+
+    @FindBy(name = "city")
+    public WebElement cityInput;
+
+    @FindBy(name = "state")
+    public WebElement stateInput2;
+
+    @FindBy(name = "zip")
+    public WebElement zipInput;
+
+    @FindBy(name = "cardNo")
+    public WebElement cardInput;
+
+    @FindBy(name = "cardExp")
+    public WebElement cardExpInput;
+
+
+    
+
+    
 
 }

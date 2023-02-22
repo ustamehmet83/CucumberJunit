@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c7d29b8-ef67-419a-9e7b-da387b0452ae" name="Changes" comment="Order_StepDefinitions">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/pages/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/pages/OrderPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/pages/ViewAllOrdersPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/step_definitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/step_definitions/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/pages/OrderPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/pages/OrderPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/step_definitions/Order_StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/step_definitions/Order_StepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/utilities/BrowserUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/utilities/BrowserUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/webTableOrder.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/webTableOrder.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +52,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;selenium.settings&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -168,6 +168,11 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SeleniumInternalSettingsState">
+    <option name="lastFrameworkName" value="Selenium" />
+    <option name="lastLanguageId" value="JAVA" />
+    <option name="lastUrl" value="https://web-table-2.cydeo.com/create-order" />
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -185,7 +190,8 @@
       <workItem from="1676203939624" duration="17445000" />
       <workItem from="1676315988900" duration="15231000" />
       <workItem from="1676663223724" duration="2792000" />
-      <workItem from="1676812639021" duration="48589000" />
+      <workItem from="1676812639021" duration="60582000" />
+      <workItem from="1677090206278" duration="1310000" />
     </task>
     <task id="LOCAL-00001" summary="Cucumber project">
       <created>1676202207468</created>
@@ -348,7 +354,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677013157830</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Order_StepDefinitions">
+      <created>1677063878860</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1677063878860</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Order_StepDefinitions">
+      <created>1677067240183</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1677067240183</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -377,5 +397,9 @@
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/test/java/com/cydeo/pages/DropdownsPage.java&#10;#&#9;src/test/java/com/cydeo/step_definitions/Datatable_StepDefinitions.java" />
     <MESSAGE value="Order_StepDefinitions" />
     <option name="LAST_COMMIT_MESSAGE" value="Order_StepDefinitions" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
