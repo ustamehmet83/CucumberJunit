@@ -14,6 +14,8 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 
+import java.util.List;
+
 public class Order_StepDefinitions {
     WebTableLoginPage webTableLoginPage = new WebTableLoginPage();
     BasePage basePage = new BasePage();
@@ -45,7 +47,7 @@ public class Order_StepDefinitions {
 
         //imitating pressing back_space button to delete existing input
         orderPage.inputQuantity.sendKeys(Keys.BACK_SPACE);
-        orderPage.inputQuantity.sendKeys(String.valueOf(arg0));
+        //orderPage.inputQuantity.sendKeys(String.valueOf(arg0));
 
     }
 
@@ -75,12 +77,10 @@ public class Order_StepDefinitions {
     }
 
     @When("user selects credit card type {string}")
-    public void user_selects_credit_card_type(String string) throws InterruptedException {
-        for (WebElement webElement : orderPage.inputPaymentInfo) {
-            if (webElement.getText().equals(string)) {
-                webElement.click();
-            }
-        }
+    public void user_selects_credit_card_type(String expectedCardType) {
+        //This line will loop through the list and decide which radio button to click
+        List<WebElement> cardTypes = orderPage.cardType;
+        BrowserUtils.clickRadioBtnWithString(cardTypes, expectedCardType);
     }
 
     @When("user enters credit card number {string}")

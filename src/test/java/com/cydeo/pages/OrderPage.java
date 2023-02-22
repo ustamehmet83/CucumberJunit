@@ -28,8 +28,8 @@ public class OrderPage extends BasePage{
     public WebElement inputState;
     @FindBy (xpath = "//input[@name='zip']")
     public WebElement inputZipCode;
-    @FindBy (xpath = "//label[@class='radio']")
-    public List<WebElement> inputPaymentInfo;
+    @FindBy (name = "card")
+    public List<WebElement> cardType;
 
     @FindBy (xpath = "//input[@placeholder='The number on the card']")
     public WebElement inputNumberOnCard;
