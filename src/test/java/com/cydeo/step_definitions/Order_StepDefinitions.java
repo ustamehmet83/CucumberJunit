@@ -50,7 +50,7 @@ public class Order_StepDefinitions {
 
         //imitating pressing back_space button to delete existing input
         orderPage.inputQuantity.sendKeys(Keys.BACK_SPACE);
-        orderPage.inputQuantity.sendKeys(String.valueOf(arg0));
+        //orderPage.inputQuantity.sendKeys(String.valueOf(arg0));
 
     }
 
