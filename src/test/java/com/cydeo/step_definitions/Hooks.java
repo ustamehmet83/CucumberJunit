@@ -12,18 +12,18 @@ import org.openqa.selenium.TakesScreenshot;
 public class Hooks {
 
     // import from io.cucumber.java not from junit
-    @Before(order = 0)
+    //@Before(order = 0)
     public void setupScenario() {
         System.out.println("====Setting up browser using cucumber @Before");
 
     }
 
-    @Before(value = "@login", order = 1)
+    //@Before(value = "@login", order = 1)
     public void setupScenarioForLogins() {
         System.out.println("====this will only apply to scenario with @login tag");
     }
 
-    @Before(value = "@db", order = -1)
+    //@Before(value = "@db", order = -1)
     public void setupForDatabaseScenarios() {
         System.out.println("====this will only apply to scenario with @db");
     }
@@ -40,12 +40,12 @@ public class Hooks {
        Driver.closeDriver();
     }
 
-    @BeforeStep
+    //@BeforeStep
     public void setupStep() {
         System.out.println("------------> applying setup using @BeforeStep");
     }
 
-    @AfterStep
+   // @AfterStep
     public void afterStep() {
         System.out.println("------------> applying tearDown using @AfterStep");
     }

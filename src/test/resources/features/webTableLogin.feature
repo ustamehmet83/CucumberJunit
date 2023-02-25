@@ -1,6 +1,8 @@
+@deneme
 Feature: User should be able to login using correct credential
 
   Background: user is on the login page
+    Given user is on login page of web table app
 
   Scenario: Positive login scenario
 
