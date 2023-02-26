@@ -5,13 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c7d29b8-ef67-419a-9e7b-da387b0452ae" name="Changes" comment="cucumber.report">
+      <change afterPath="$PROJECT_DIR$/FlexioQaUser.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleData.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/pages/FidexioLoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/pages/FlexioDashBoardPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/ExcelRead.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/FlexioLoginDDTTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/WriteExcel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/runners/CukesRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/step_definitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/step_definitions/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/step_definitions/WebTable_StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/step_definitions/WebTable_StepDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/utilities/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/webTableLogin.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/webTableLogin.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/pages/BasePage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,23 +54,27 @@
     <option name="showLibraryContents" value="true" />
     <option name="showModules" value="false" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/mehme/IdeaProjects/cydeo-cucumber-junit",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mehme\IdeaProjects\cydeo-cucumber-junit" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\mehme\IdeaProjects\cydeo-cucumber-junit" />
       <recent name="C:\Users\mehme\IdeaProjects\cydeo-cucumber-junit\src" />
       <recent name="C:\Users\mehme\IdeaProjects\cydeo-cucumber-junit\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CukesRunner">
+  <component name="RunManager">
     <configuration name="Scenario: List of fruits I like" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/dataTables.feature" />
@@ -187,7 +195,8 @@
       <workItem from="1676812639021" duration="48589000" />
       <workItem from="1677095146958" duration="7090000" />
       <workItem from="1677272951358" duration="43000" />
-      <workItem from="1677273017419" duration="5276000" />
+      <workItem from="1677273017419" duration="6550000" />
+      <workItem from="1677401497730" duration="13038000" />
     </task>
     <task id="LOCAL-00001" summary="Cucumber project">
       <created>1676202207468</created>
@@ -364,7 +373,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677272713879</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="cucumber.report">
+      <created>1677339646237</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1677339646237</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

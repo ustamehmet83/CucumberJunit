@@ -20,4 +20,5 @@ public class BasePage {
     public WebElement viewAllProducts;
     @FindBy(xpath = "//button[.='Order']")
     public WebElement orders;
+
 }
