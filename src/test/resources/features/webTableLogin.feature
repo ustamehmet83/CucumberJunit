@@ -1,4 +1,3 @@
-@deneme
 Feature: User should be able to login using correct credential
 
   Background: user is on the login page

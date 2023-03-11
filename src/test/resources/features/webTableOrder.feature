@@ -32,7 +32,7 @@ Feature: Web table user order feature
     And user enters process order button
     Then user should see "<expectedName>" in first row of the web table
 
-    @wip
+
     Examples:Famous female scientists
       | productType | quantity | customerName       | street    | city   | state   | zipcode | cardType | cardNumber       | expiryDate | expectedName       |
       | MoneyCog    | 2        | Marie Curie        | London st | London | England | 50505   | Visa     | 1111222233334444 | 12/24      | Marie Curie        |
